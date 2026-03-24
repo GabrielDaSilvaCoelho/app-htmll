@@ -17,7 +17,7 @@
 body{
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
-  background: var(--bg);
+  background: white;
 
   display: flex;
   align-items: center;
@@ -25,7 +25,6 @@ body{
 
   min-height: 100vh;
 
-  /* 🔥 melhora no mobile */
   padding: 12px;
 }
 
@@ -67,7 +66,7 @@ input{
 
   outline: none;
 
-  font-size: 16px; /* evita zoom no iPhone */
+  font-size: 16px; 
 
   transition: all .2s ease;
 }
@@ -133,8 +132,6 @@ a:hover{
   width: 32px;
 }
 
-/* ========================= */
-/* 💻 TABLET */
 @media (min-width: 768px){
 
   body{
@@ -150,8 +147,6 @@ a:hover{
   }
 }
 
-/* ========================= */
-/* 🖥 DESKTOP */
 @media (min-width: 1024px){
 
   .container{
